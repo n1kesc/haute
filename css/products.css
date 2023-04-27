@@ -69,13 +69,13 @@
 }
 
 .swiper-button-prev {
-    background-image: url(./images/arrow1.svg);
+    background-image: url(../images/arrow1.svg);
     left: auto;
     right: 70px;
     top: -30px;
 }
 
 .swiper-button-next {
-    background-image: url(./images/arrow2.svg);
+    background-image: url(../images/arrow2.svg);
     top: -30px;
 }
