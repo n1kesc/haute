@@ -1,0 +1,28 @@
+@import url('media.css');
+@import url('variables.css');
+@import url('base.css');
+@import url('typography.css');
+@import url('fonts.css');
+
+
+
+/* header */
+@import url('header.css');
+
+/* header__slider */
+@import url('header__slider.css');
+
+/* logos */
+@import url('logos.css');
+
+/* products */
+@import url('products.css');
+
+/* brands */
+@import url('brands.css');
+
+/* collaborations */
+@import url('collaborations.css');
+
+/* footer */
+@import url('footer.css')

@@ -1,0 +1,81 @@
+
+h1,.h1 {
+	font-weight: 600;
+	font-size: 60px;
+	text-transform: uppercase;
+	line-height: var(--lineheight);
+}
+
+h2,.h2 {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: var(--lineheight);
+	text-transform: capitalize;
+}
+
+h3,.h3 {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: var(--lineheight);
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+
+}
+
+h4,.h4 {
+	font-weight: 600;
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 110%;
+}
+
+h5,.h5 {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 110%;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+
+.upper__text {
+	text-transform: uppercase;
+}
+
+h6,.h6 {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 100%;
+	text-transform: uppercase;
+}
+
+.subtitle1 {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 100%;
+}
+
+.subtitle2 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: var(--lineheight);
+}
+
+.subtitle3 {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: var(--lineheight);
+}
+
+.subtitle4 {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: var(--lineheight);
+}
+
+.text-red {
+	color: var(--red-color) !important;
+}
+
+.text-red:hover {
+	color: var(--black-color) !important;
+}

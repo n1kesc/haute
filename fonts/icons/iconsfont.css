@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('icons.eot?daag22');
+  src:  url('icons.eot?daag22#iefix') format('embedded-opentype'),
+    url('icons.ttf?daag22') format('truetype'),
+    url('icons.woff?daag22') format('woff'),
+    url('icons.svg?daag22#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cross:before {
+  content: "\e904";
+}
+.icon-arrow-left:before {
+  content: "\e900";
+}
+.icon-arrow-right:before {
+  content: "\e901";
+}
+.icon-bag:before {
+  content: "\e902";
+}
+.icon-bag-number:before {
+  content: "\e903";
+}
+.icon-facebook:before {
+  content: "\e905";
+}
+.icon-instagram:before {
+  content: "\e906";
+}
+.icon-linkedin:before {
+  content: "\e907";
+}
+.icon-login:before {
+  content: "\e908";
+}
+.icon-pinterest:before {
+  content: "\e909";
+}
+.icon-search:before {
+  content: "\e90a";
+}
+.icon-twitter:before {
+  content: "\e90b";
+}

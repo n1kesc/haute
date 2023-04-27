@@ -1,0 +1,31 @@
+/* USER VARIABLES SECTION */
+
+:root {
+	--accent: orange;
+	--black-color: #000000;
+	--gray-color: #6F6F6F;
+	--light-gray-color: #DFDFDF;
+	--gray-hero-color: #F5F5F5;
+	--red-color: #CA1818;
+	--white-color: #FFFFFF;
+	--regular-text: 18px;
+	--lineheight: 120%;
+	--userfont: Inter-st, sans-serif;
+	--systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+	--container-width: 1400px;
+	--container-x-paddings: 15px;
+	--header-height: 100px;
+	--section-y-paddings: 80px;
+}
+
+@media (max-width: 992px) {
+	:root {
+		--header-height: 75px;
+	}
+}
+
+@media (max-width: 448px) {
+	:root {
+		--section-y-paddings: 40px;
+	}
+}
