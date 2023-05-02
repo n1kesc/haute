@@ -30,10 +30,12 @@ body {
 	overflow-x: hidden;
     margin: 0;
     padding: 0;
+	min-height: 200vh;
 }
 
 html {
 	overflow-x: hidden;
+	height: 100%;
 }
 
 body._lock {

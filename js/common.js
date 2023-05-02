@@ -1,5 +1,30 @@
 // $('body').hide()
 
+// fixed-navigation
+
+let prevScrollPos = window.pageYOffset;
+let headerHeight = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-height'));
+window.addEventListener('scroll', function() {
+  const currentScrollPos = window.pageYOffset; 
+  
+  if (currentScrollPos >= headerHeight) {
+    document.body.classList.add('navigation__fixed')
+  } else {
+    document.body.classList.remove('navigation__fixed')
+  }
+
+  if (currentScrollPos > window.innerHeight / 2 + headerHeight) {
+    if (prevScrollPos < currentScrollPos) {
+        document.body.classList.add('navigation__hidden')
+    } else {
+        document.body.classList.remove('navigation__hidden')
+    }
+  }
+
+  prevScrollPos = currentScrollPos;
+});
+
+
 // mobile_menu-icon
 
 const burger = document.querySelector('.mobile_menu-icon');
@@ -30,14 +55,14 @@ document.querySelectorAll('.menu__list-item').forEach((el) => {
 // header_slider
 
 const slider = new Swiper('.head__slider', {
-    // Optional parameters
+    
     direction: 'horizontal',
     loop: true,
     autoHeight: true,
 
 
 
-    // If we need pagination
+    
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -48,7 +73,7 @@ const slider = new Swiper('.head__slider', {
 // products-slider
 
 const swiper = new Swiper('.products-slider', {
-    // Optional parameters
+    
     direction: 'horizontal',
     loop: true,
     slidesPerView: 'auto',
@@ -67,7 +92,7 @@ const swiper = new Swiper('.products-slider', {
     },
 
 
-    // Navigation arrows
+    
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
